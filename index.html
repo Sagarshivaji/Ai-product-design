@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Employee Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">EMP AI</h2>
+    <nav>
+      <a class="active">Dashboard</a>
+      <a>Employees</a>
+      <a>Job Pipeline</a>
+      <a>AI Insights</a>
+      <a>Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    
+    <!-- Header -->
+    <header class="header">
+      <h1>HR Dashboard</h1>
+      <p>AI-assisted employee insights</p>
+    </header>
+
+    <!-- Stats -->
+    <section class="stats">
+      <div class="card">
+        <h3>Total Employees</h3>
+        <p id="empCount">120</p>
+      </div>
+      <div class="card">
+        <h3>Open Jobs</h3>
+        <p>18</p>
+      </div>
+      <div class="card">
+        <h3>AI Alerts</h3>
+        <p class="warning">5</p>
+      </div>
+    </section>
+
+    <!-- AI Recommendation -->
+    <section class="ai-box">
+      <h3>AI Recommendation</h3>
+      <p>
+        ⚠️ 3 employees show potential burnout risk.  
+        <br/>
+        <small>Confidence: 82%</small>
+      </p>
+      <button>Review Insights</button>
+    </section>
+
+    <!-- Job Pipeline -->
+    <section class="pipeline">
+      <h3>Job Pipeline</h3>
+
+      <div class="pipeline-row">
+        <span>Frontend Developer</span>
+        <span class="status interview">Interview</span>
+      </div>
+
+      <div class="pipeline-row">
+        <span>Data Analyst</span>
+        <span class="status screening">Screening</span>
+      </div>
+
+      <div class="pipeline-row">
+        <span>HR Manager</span>
+        <span class="status offer">Offer</span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
